@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5cf5995da9100dc4099f4744b01da387
+guid: c4bd6298a6670bb4083bb3d4714effa5
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Parkinsans
+  - Galindo
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
