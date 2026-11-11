@@ -336,6 +336,7 @@ GameObject:
   - component: {fileID: 4417357666851800441}
   - component: {fileID: 3499896913821121973}
   - component: {fileID: 8902513873528004662}
+  - component: {fileID: 8880161053047819015}
   m_Layer: 0
   m_Name: Trigger_Ramasser
   m_TagString: Untagged
@@ -455,9 +456,10 @@ MonoBehaviour:
   - {fileID: 12466374300213725}
   - {fileID: 8902513873528004662}
   - {fileID: 4417357666851800441}
-  exitActions: []
+  exitActions:
+  - {fileID: 8880161053047819015}
   holdTime: 0
-  afterTrigger: 3
+  afterTrigger: 4
   debugLogging: 1
   showHintMaterial: 0
   hintTargetMode: 1
@@ -545,4 +547,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.GameObjectAction
   targetMode: 1
   target: {fileID: 0}
+  operation: 1
+--- !u!114 &8880161053047819015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315189213157078382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275f95c71dc6d4da5b0b56be350fa878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.GameObjectAction
+  targetMode: 1
+  target: {fileID: 8315189213157078382}
   operation: 1
