@@ -333,10 +333,7 @@ GameObject:
   - component: {fileID: 2244116114512660668}
   - component: {fileID: 1664988992490471251}
   - component: {fileID: 12466374300213725}
-  - component: {fileID: 4417357666851800441}
-  - component: {fileID: 3499896913821121973}
   - component: {fileID: 8902513873528004662}
-  - component: {fileID: 8880161053047819015}
   m_Layer: 0
   m_Name: Trigger_Ramasser
   m_TagString: Untagged
@@ -452,12 +449,12 @@ MonoBehaviour:
   conditions:
   - {fileID: 1664988992490471251}
   actions:
-  - {fileID: 3499896913821121973}
+  - {fileID: 0}
   - {fileID: 12466374300213725}
   - {fileID: 8902513873528004662}
-  - {fileID: 4417357666851800441}
+  - {fileID: 0}
   exitActions:
-  - {fileID: 8880161053047819015}
+  - {fileID: 0}
   holdTime: 0
   afterTrigger: 4
   debugLogging: 1
@@ -500,39 +497,6 @@ MonoBehaviour:
   targetMode: 1
   target: {fileID: 1598034248799334}
   operation: 1
---- !u!114 &4417357666851800441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8315189213157078382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76b72530ebdb347f183b4a6e502bd4e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.VariableAction
-  targetVariable: {fileID: 11400000, guid: ae4c0eb24d4b9be40aad2df0cdb59b01, type: 2}
-  valueMode: 0
-  floatValue: 0
-  intValue: 0
-  boolValue: 1
-  stringValue: 
---- !u!114 &3499896913821121973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8315189213157078382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 275f95c71dc6d4da5b0b56be350fa878, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.GameObjectAction
-  targetMode: 1
-  target: {fileID: 0}
-  operation: 1
 --- !u!114 &8902513873528004662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -547,19 +511,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.GameObjectAction
   targetMode: 1
   target: {fileID: 0}
-  operation: 1
---- !u!114 &8880161053047819015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8315189213157078382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 275f95c71dc6d4da5b0b56be350fa878, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.GameObjectAction
-  targetMode: 1
-  target: {fileID: 8315189213157078382}
   operation: 1
