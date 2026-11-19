@@ -31785,7 +31785,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 5459330b04de1d943ae20057ecb2492e, type: 3}
+  m_Resource: {fileID: 8300000, guid: 8693e82a81dc2a04a97b9010679060ab, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
@@ -33756,43 +33756,6 @@ MonoBehaviour:
   endDialogueEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1859257151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1859257142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd40c1e0d694d44cb1f2a962674b344, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HeneGames.DialogueSystem.ClickMovement
-  pointMask:
-    serializedVersion: 2
-    m_Bits: 1
---- !u!195 &1859257152
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1859257142}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!81 &1859257160
 AudioListener:
   m_ObjectHideFlags: 0
@@ -39948,6 +39911,10 @@ PrefabInstance:
       propertyPath: SprintSpeed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8814401918437512978, guid: d858de704de57ff439a1e037e0f8ac55, type: 3}
+      propertyPath: FootstepAudioVolume
+      value: 0.15
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6656331903485792171, guid: d858de704de57ff439a1e037e0f8ac55, type: 3}
     - {fileID: 2923811761078686676, guid: d858de704de57ff439a1e037e0f8ac55, type: 3}
@@ -39957,12 +39924,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 516778941000698118, guid: d858de704de57ff439a1e037e0f8ac55, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1758109754}
-    - targetCorrespondingSourceObject: {fileID: 2636750937831909768, guid: d858de704de57ff439a1e037e0f8ac55, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1859257152}
-    - targetCorrespondingSourceObject: {fileID: 2636750937831909768, guid: d858de704de57ff439a1e037e0f8ac55, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1859257151}
     - targetCorrespondingSourceObject: {fileID: 2636750937831909768, guid: d858de704de57ff439a1e037e0f8ac55, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1859257150}

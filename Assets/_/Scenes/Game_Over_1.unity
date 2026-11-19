@@ -3623,8 +3623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
-  m_FirstSelected: {fileID: 1146944507}
-  m_sendNavigationEvents: 1
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 0
   m_DragThreshold: 10
 --- !u!4 &1010309785
 Transform:
@@ -7577,6 +7577,10 @@ PrefabInstance:
     - target: {fileID: 345803264490591482, guid: 4b8193ac1c162684b8124a5e1f094168, type: 3}
       propertyPath: nomDeLaScene
       value: Niveau_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 345803264490591482, guid: 4b8193ac1c162684b8124a5e1f094168, type: 3}
+      propertyPath: delaiAvantChangement
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 5654753201871114526, guid: 4b8193ac1c162684b8124a5e1f094168, type: 3}
       propertyPath: m_LocalPosition.x
