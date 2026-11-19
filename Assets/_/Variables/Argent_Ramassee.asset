@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3ad3d94c76a74ffaae15625647ada6a, type: 3}
-  m_Name: Mission_2_En_cours
+  m_Name: Argent_Ramassee
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.BoolVariable
-  m_Id: b69df49f385e4c75ad9124c9d7ffd379
+  m_Id: 31b2b7cb02f4463abcb145e4a09e8c10
   Persistent: 0
   m_InitialValue: 0
